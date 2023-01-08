@@ -40,6 +40,14 @@ body{
     padding-right: 80px;
 }
 
+.heading1 h1{
+    
+    margin:0;
+    font-size: xxx-large;
+    padding-top: 0;
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 950px) {
     .wrapper {
         display: grid;
@@ -60,6 +68,9 @@ body{
     
         float: right;
         padding-right: 20px;
+    }
+    .heading1 h1 {font-size: 1000;
+
     }
 }
 
@@ -112,13 +123,7 @@ body{
     padding-top: 0;
     
 }
-.heading1 h1{
-    
-    margin:0;
-    font-size: xxx-large;
-    padding-top: 0;
-    font-weight: 700;
-}
+
 
 .textheading1 {
     /*padding-left: 10px;*/
