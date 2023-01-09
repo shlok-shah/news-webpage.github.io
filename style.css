@@ -44,6 +44,13 @@
     font-size: xxx-large;
     padding-top: 0;
     font-weight: 700;
+    transition: all 0.2s;
+
+}
+
+.heading1 h1:hover {
+    transform: scale(1.05);
+    color:coral;
 }
 
 @media only screen and (max-width: 950px) {
@@ -67,9 +74,7 @@
         float: right;
         padding-right: 20px;
     }
-    .heading1 h1 {font-size: 1000;
-
-    }
+    
 }
 
 #blog11 {
@@ -87,10 +92,12 @@
     display: flex;
     justify-content: flex-start;
     color: hsl(233, 4%, 59%);
+    transition: transform 0.3s;
 }
 
 .blog1:hover{
     background-color: rgba(128, 128, 128, 0.173);
+    transform: translateY(-10px);
 }
 .blog1head{
     font-size: xx-large;
@@ -103,7 +110,10 @@
     color:hsl(240, 100%, 5%);
 }
 .button1:hover{
-    background-color: hsla(5, 85%, 63%, 0.812);
+    background-color: red;
+    transform: translateY(-5px);
+    
+
 }
 
 .blog1head3{
@@ -143,6 +153,7 @@
     height: 40px;
     width:120px;
     color: white;
+    transition: all 0.3s;
     
 }
 .heading a{
@@ -166,8 +177,12 @@
     width:100%;
     background-size: 100% 100%;
     height:auto;
-
+    transition: transform 0.3s;
        
+}
+
+.mainimg:hover {
+    transform: translateY(-5px);
 }
 
 .heading1 {
@@ -202,4 +217,3 @@ hr {
     padding-left: 10px;
     color: hsl(35, 77%, 62%);
 }
-
